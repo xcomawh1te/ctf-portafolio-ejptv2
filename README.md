@@ -12,7 +12,7 @@ Documentar la resolución de máquinas CTF para demostrar:
 - Capacidad de análisis
 - Aprendizaje autodidacta continuo
 
-## 🧠 Plataformas
+## ⬇️ Plataformas
 - Hack The Box
 - TryHackMe
 - VulnHub
