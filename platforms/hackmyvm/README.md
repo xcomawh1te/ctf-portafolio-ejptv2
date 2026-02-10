@@ -11,7 +11,7 @@ con IP 192.168.100.21  ( 08:00:27:d5:56:19 )
 
 ## 2. Enumeración
 Comenzamos con el escaneo de puertos para nuestra ip victima y lo guardamos en un archivo para tener los datos 
-sudo nmap -p- -sS -sC -sV --min-rate 5000 -n -vvv -Pn 192.168.100.21 -oN DC01_escaneo
+</br> sudo nmap -p- -sS -sC -sV --min-rate 5000 -n -vvv -Pn 192.168.100.21 -oN DC01_escaneo
 
 <img width="838" height="540" alt="image" src="https://github.com/user-attachments/assets/3ef85c47-904b-409c-91b7-354074087952" />
 
