@@ -1,4 +1,4 @@
-# Machine: DC01 - HackMyVM
+<img width="648" height="34" alt="image" src="https://github.com/user-attachments/assets/03644b34-ca2e-48d8-932b-26456271f768" /># Machine: DC01 - HackMyVM
 Dificultad: Medium  
 Sistema: Windows 
 
@@ -16,6 +16,66 @@ Comenzamos con el escaneo de puertos para nuestra ip victima y lo guardamos en u
 <img width="838" height="540" alt="image" src="https://github.com/user-attachments/assets/3ef85c47-904b-409c-91b7-354074087952" />
 
 <img width="929" height="397" alt="image" src="https://github.com/user-attachments/assets/b14669f5-7111-4719-afb2-87a95f4f2cc8" />
+
+Notamos que hay un servicio de Active Directory Windows TLL 128 , el cual muestra el nombre de Dominio que guardaremos en /etc/host/
+para tener como dato. </br>
+
+<img width="298" height="48" alt="image" src="https://github.com/user-attachments/assets/e5f6b505-b020-4b06-9a0a-23acabf34294" /> </br>
+
+<img width="447" height="227" alt="image" src="https://github.com/user-attachments/assets/794b6e72-b82c-4a96-97be-4f6e7efa67c7" />
+
+Para enumerar Puertos podemos probar si existe alguna vulnerabilidad directamente con algún puerto , escogeremos el 445 probando con 
+nmap --script+=vuln -p 445 Pn 192.168.100.21
+
+En esta ocación no existe vulnerabilidad a la fecha
+<img width="558" height="159" alt="image" src="https://github.com/user-attachments/assets/810d1f8c-7fb8-4a35-9e1a-3df4aca8911e" />
+
+Tambien podemos recurrir a revisar los permisos del puerto 455  de la siguiente manera
+<img width="736" height="238" alt="image" src="https://github.com/user-attachments/assets/ad6ad8e4-5901-4c9b-ae0e-a782c9ce8844" />
+
+<img width="923" height="242" alt="image" src="https://github.com/user-attachments/assets/4ad16b59-cd11-4945-8be7-6a58f5e40766" />
+
+Acá obserbamos que tenemos permisos de Lectura sobre $IPC
+también podemos verlo con smbmap -H 192.168.100.21 -u 'guest' -p '' -r IPC$ 
+</br>
+<img width="709" height="480" alt="image" src="https://github.com/user-attachments/assets/a0ae0707-14ca-4327-8a1c-01b154ae4d52" />
+<br>
+<img width="846" height="545" alt="image" src="https://github.com/user-attachments/assets/a6926ae4-4006-42f8-bb85-4a95b31257fa" />
+
+ahora intentaremos leer los recursos compartidos de IPC$ mediante netexec smb 192.168.56.128 -u 'guest' -p '' --rid-brute  </br>
+y obtener usuarios
+
+<img width="648" height="34" alt="image" src="https://github.com/user-attachments/assets/fb344b24-eb40-4305-9dea-a1446d130620" />
+Lo importante aca es guardar los usuarios en un archivo que nombraremos data, de el cual obtendremos usuarios para poder explotar posteriormente 
+
+<br> en nuestro archivo vamos a extraer solo los datos que nos interesan en este caso son los nombres de usuario y para ello usamos el siguiente comando 
+cat data | awk '{print $6}' | tr '\\' ' ' | awk '{print $2}' > usuarios_filtrados
+
+<img width="803" height="45" alt="image" src="https://github.com/user-attachments/assets/712131d6-1036-47d9-ac79-ccf7d1f95f63" />
+pasamos de esto <br>
+<img width="925" height="265" alt="image" src="https://github.com/user-attachments/assets/4b3e0d16-19e5-4875-a86c-293c0041e6f6" />
+<br>
+a esto <br>
+<img width="772" height="270" alt="image" src="https://github.com/user-attachments/assets/c4630c5f-5432-4b02-9429-147814ea1078" />
+hemos rescatado en total 
+<img width="358" height="59" alt="image" src="https://github.com/user-attachments/assets/4237a85d-22ae-4f7c-9a99-68fc29fc8f16" />
+<br>
+Con la intención de encontrar un usuario que posea mismo nombre y contraseña corremos el comando <br>
+netexec smb 192.168.100.21 -u usuarios_filtrados -p usuarios_filtrados --continue-on-success --no-bruteforce 
+<img width="1314" height="280" alt="image" src="https://github.com/user-attachments/assets/322124fe-709b-43a6-872e-92c324fab054" /><br>
+
+<img width="738" height="17" alt="image" src="https://github.com/user-attachments/assets/fe8891db-cde4-45bb-b9f7-4bcd50827788" />
+luego comprobaremos con netexec las credenciales obtenidas 
+
+<img width="1323" height="72" alt="image" src="https://github.com/user-attachments/assets/34d940c6-f1ac-4b3d-8a94-5a44b01eb12c" />
+
+
+
+
+
+
+
+
 
 
 ## 3. Explotación
