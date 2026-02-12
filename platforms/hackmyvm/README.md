@@ -69,13 +69,55 @@ luego comprobaremos con netexec las credenciales obtenidas
 
 <img width="1323" height="72" alt="image" src="https://github.com/user-attachments/assets/34d940c6-f1ac-4b3d-8a94-5a44b01eb12c" />
 
+Ahora podremos enumerar Recursos compartidos de manera autenticada y podremos ver uno de Users <br>
+
+<img width="1280" height="221" alt="image" src="https://github.com/user-attachments/assets/d5c4bb04-934e-4121-8529-0ba197960f10" />
 
 
+2
+
+<img width="775" height="297" alt="image" src="https://github.com/user-attachments/assets/6df19449-accb-464c-8656-2aaf48762ba2" />
+<br>
+
+3
+
+<img width="1128" height="293" alt="image" src="https://github.com/user-attachments/assets/f7317f5c-7378-48b2-af32-3c519004afea" />
+
+4
+<img width="414" height="58" alt="image" src="https://github.com/user-attachments/assets/7b843dd3-d5bd-481e-8142-564b8ef54634" />
 
 
+5
+
+<img width="1081" height="237" alt="image" src="https://github.com/user-attachments/assets/18554128-faab-4d85-a169-c3fcc58d7176" />
+6
+
+<img width="1335" height="329" alt="image" src="https://github.com/user-attachments/assets/5adff4f9-0e97-4f5a-855c-3dd0324dc8ea" />
+
+7
+
+<img width="864" height="179" alt="image" src="https://github.com/user-attachments/assets/b6155bed-384c-4f0d-8879-0dab9323ac94" />
+8
+
+<img width="1285" height="376" alt="image" src="https://github.com/user-attachments/assets/f19eba93-5f36-4997-8eb2-9c1b019fd111" /> 
+9
 
 
+<img width="953" height="25" alt="image" src="https://github.com/user-attachments/assets/38cccb43-4699-4f75-ad94-9f24e7f9c80d" />
 
+10
+<img width="1298" height="70" alt="image" src="https://github.com/user-attachments/assets/fef44fa5-3d71-4364-bc9b-dbf658137cd8" />
+
+11
+
+
+<img width="829" height="487" alt="image" src="https://github.com/user-attachments/assets/0bc806f8-35f8-41de-aa41-f878c1dbdc35" />
+
+12
+
+<img width="1269" height="534" alt="image" src="https://github.com/user-attachments/assets/d9de22ac-4b6f-437d-a2a5-870c3a768c0e" />
+crear 
+pass dehash
 
 
 ## 3. Explotación
