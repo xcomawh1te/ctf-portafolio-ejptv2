@@ -17,6 +17,7 @@ Documentar la resolución de máquinas CTF para demostrar:
 - TryHackMe
 - VulnHub
 - VulNyx
+- Dockerlabs
 
 ## ⚠️ Disclaimer
 No se incluyen flags completas ni información sensible.
