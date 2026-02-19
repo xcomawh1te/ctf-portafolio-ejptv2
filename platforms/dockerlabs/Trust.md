@@ -38,4 +38,32 @@ hydra -l mario -P /home/kali/rockyou.txt ssh://172.18.0.2 -t 64  <br>
 
 <img width="1337" height="259" alt="image" src="https://github.com/user-attachments/assets/6cdd5879-e271-48d5-be4c-c384d1696779" />  <br>
 
-## 4. Escalar Privilegios
+Una ves obtenida la contraseña, nos conectamos por ssh utilizando las credenciales que obtuvimos <br>
+ssh mario@172.18.0.2  y luego verificamos nuestro usuario con whoami <br>
+
+<img width="829" height="340" alt="image" src="https://github.com/user-attachments/assets/080f3839-b8ae-408a-a7e1-406bf1229da0" /> <br>
+
+Podemos ir revisando cada uno de los ficheros y ver si encontramos algo que nos pueda ayudar <br>
+<img width="892" height="539" alt="image" src="https://github.com/user-attachments/assets/0553d1d6-29b6-4a23-9c71-01b386956eed" /> <br>
+
+
+Encontrar binarios que podamos ejecutar como propietario del sistema con find / -perm -4000 2>/dev/null <br>
+
+<img width="505" height="182" alt="image" src="https://github.com/user-attachments/assets/4e07d717-1385-4461-a6d2-dc2bf79d3023" /> <br>
+
+## 4. Escalada de Privilegios
+
+También podemos provar que comandos puede ejecutar el usuario mario como propietario del sistema para encontrar alguna vulnerabilidad <br>
+
+<img width="938" height="146" alt="image" src="https://github.com/user-attachments/assets/42178021-6b87-4c08-8b1b-a23b22d84661" /> <br>
+
+Usamos el comando como root
+<img width="419" height="22" alt="image" src="https://github.com/user-attachments/assets/f1e56856-27ed-4ec2-9746-1e101f9b237f" /> <br>
+Lo cual nos lleva al editor Vim, usamos !/bin/bash , la cual nos permitira acceder a root <br>
+<img width="1235" height="561" alt="image" src="https://github.com/user-attachments/assets/8e62746e-2d44-4063-8ca7-99c7a4774017" /><br>
+
+para finalizar tenemos opciones para escalar privilegios como root <br>
+<img width="432" height="85" alt="image" src="https://github.com/user-attachments/assets/78f7ac26-2995-4ce9-b6c9-f9264b6718b0" /> <br>
+
+
+## 5. Aprendizajes
