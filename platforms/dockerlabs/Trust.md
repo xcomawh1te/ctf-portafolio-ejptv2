@@ -1,9 +1,11 @@
 
-##1. Reconocimiento
 
 Habilitamos la maquina y nos entrega su io -> 172.18.0.2<br>
 
 <img width="918" height="174" alt="image" src="https://github.com/user-attachments/assets/52b50d19-4258-4e06-861b-8e3459fc4be9" /><br>
+
+
+##1. Reconocimiento
 
 sudo nmap -p- -sS -sC -sV --min-rate 5000 -n -vvv -Pn 172.18.0.2<br>
 <img width="885" height="551" alt="image" src="https://github.com/user-attachments/assets/c722cee0-4293-4cab-8cb7-1080ffe2f371" /><br>
@@ -25,6 +27,8 @@ obuster dir -u http://172.18.0.2/ -w /usr/share/wordlists/dirbuster/directory-li
 
 Encontraremos un recurso llamado  /secret.php la cual adjuntamos a nuestro sitio  <br>
 <img width="874" height="531" alt="image" src="https://github.com/user-attachments/assets/83ac4623-ffaa-483c-8b14-bc33c834a5ad" /> <br>
+
+##2. Explotación
 
 Como dato sabemos que hay un usuario que se llama mario, por lo cual lo usaremos para encontrar su clave mediante un ataque hydra al puerto ssh <br>
 hydra -l mario -P /home/kali/rockyou.txt ssh://172.18.0.2 -t 64  <br>
