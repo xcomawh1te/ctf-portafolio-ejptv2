@@ -1,11 +1,10 @@
 
-
+##1. Reconocimiento
 
 Habilitamos la maquina y nos entrega su io -> 172.18.0.2<br>
 
 <img width="918" height="174" alt="image" src="https://github.com/user-attachments/assets/52b50d19-4258-4e06-861b-8e3459fc4be9" /><br>
 
-Reconocimiento
 sudo nmap -p- -sS -sC -sV --min-rate 5000 -n -vvv -Pn 172.18.0.2<br>
 <img width="885" height="551" alt="image" src="https://github.com/user-attachments/assets/c722cee0-4293-4cab-8cb7-1080ffe2f371" /><br>
 
