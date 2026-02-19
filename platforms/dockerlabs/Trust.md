@@ -2,6 +2,8 @@
 Dificultad: Easy  
 Sistema: Linux 
 
+<img width="1356" height="517" alt="image" src="https://github.com/user-attachments/assets/53631ad1-26bd-463f-94a8-75e87693e494" /> 
+
 
 ## 1. Reconocimiento
 Habilitamos la maquina y nos entrega su io -> 172.18.0.2<br>
@@ -69,5 +71,11 @@ Lo cual nos lleva al editor Vim, usamos !/bin/bash , la cual nos permitira acced
 para finalizar tenemos opciones para escalar privilegios como root <br>
 <img width="432" height="85" alt="image" src="https://github.com/user-attachments/assets/78f7ac26-2995-4ce9-b6c9-f9264b6718b0" /> <br>
 
+otra manera de acceder a root <br>
+<img width="521" height="105" alt="image" src="https://github.com/user-attachments/assets/bacb3b72-9c0d-4b9f-a89d-1b7b7d48b6be" />
+
 
 ## 5. Aprendizajes
+
+
+
