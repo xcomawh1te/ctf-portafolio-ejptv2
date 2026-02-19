@@ -1,5 +1,6 @@
-Maquina Dockerlabs - Trust
-Nivel: Easy
+# Machine: Trust - Dockerlabs
+Dificultad: Easy  
+Sistema: Linux 
 
 
 ## 1. Reconocimiento
