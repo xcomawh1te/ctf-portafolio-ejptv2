@@ -18,14 +18,17 @@ Identificamos 2 puertos el 22 y el 80<br>
 
 
 Realizar Fuzzing Web mediante Herramienta Dirb <br>
+
 <img width="520" height="370" alt="image" src="https://github.com/user-attachments/assets/e4a4a52e-ff5a-48c3-8ef1-b1231307b11d" /><br>
 
 Tambien probamos con Gobuster con los parametros  -x con extensiones para encontrar archivos que nos puedan servir<br>
 
 obuster dir -u http://172.18.0.2/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x html,php,sh,py  <br>
+
 <img width="1062" height="403" alt="image" src="https://github.com/user-attachments/assets/7537c149-02a0-4da0-a4dd-8280d7067605" /> <br>
 
 Encontraremos un recurso llamado  /secret.php la cual adjuntamos a nuestro sitio  <br>
+
 <img width="874" height="531" alt="image" src="https://github.com/user-attachments/assets/83ac4623-ffaa-483c-8b14-bc33c834a5ad" /> <br>
 
 ## 3. Explotación
