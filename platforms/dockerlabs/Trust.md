@@ -1,4 +1,4 @@
-# Machine: Trust - Dockerlabs
+# Máquina: Trust - Dockerlabs
 Dificultad: Easy  
 Sistema: Linux 
 
