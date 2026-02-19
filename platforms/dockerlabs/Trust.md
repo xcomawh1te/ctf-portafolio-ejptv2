@@ -1,3 +1,6 @@
+Maquina Dockerlabs - Trust
+Nivel: Easy
+
 
 ## 1. Reconocimiento
 Habilitamos la maquina y nos entrega su io -> 172.18.0.2<br>
