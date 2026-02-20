@@ -11,7 +11,7 @@ Habilitamos la maquina y nos entrega su io -> 172.18.0.2<br>
 <img width="918" height="174" alt="image" src="https://github.com/user-attachments/assets/52b50d19-4258-4e06-861b-8e3459fc4be9" /><br>
 
 
-## 1. Enumeración
+## 2. Enumeración
 
 sudo nmap -p- -sS -sC -sV --min-rate 5000 -n -vvv -Pn 172.18.0.2<br>
 <img width="885" height="551" alt="image" src="https://github.com/user-attachments/assets/c722cee0-4293-4cab-8cb7-1080ffe2f371" /><br>
@@ -77,5 +77,40 @@ otra manera de acceder a root <br>
 
 ## 5. Aprendizajes
 
+<strong>ENUMERACIÓN DE PUERTOS: </strong><br>
+        Uso de Nmap para enumeración de puertos y servicios. 
+        Se aprendió a identificar puertos abiertos (SSH en el 22, HTTP en el 80) 
+        y versiones de servicios con flags como -sS, -sC, -sV y --min-rate 
+        para acelerar el escaneo sin perder precisión.
 
+<strong>FUZZING WEB: </strong><br>
+        Descubrimiento de recursos ocultos con Dirb y Gobuster. 
+        Se aprendió a combinar ambas herramientas: Dirb como exploración rápida inicial 
+        y Gobuster con extensiones (-x html, php, sh, py) para encontrar archivos específicos 
+        como /secret.php, que reveló un nombre de usuario válido.
+        
+<strong>FUERZA BRUTA: </strong><br>
+        Ataque de fuerza bruta con Hydra sobre SSH. 
+        Se utilizó el diccionario rockyou.txt con 14 millones de contraseñas 
+        para obtener las credenciales de mario. 
+        Se aprendió la importancia de limitar el paralelismo (-t 64) 
+        y cómo una contraseña débil como "chocolate" puede comprometer un sistema.
 
+<strong>POST-EXPLOTACIÓN: </strong><br>
+        Enumeración del sistema tras acceder por SSH. 
+        Una vez dentro, se exploró el sistema de archivos, el historial de bash 
+        y los permisos del usuario, técnicas fundamentales para identificar 
+        vectores de escalada de privilegios.
+
+<strong>SUID / SUDO: </strong><br>
+        Identificación de binarios privilegiados con SUID y sudo. 
+        Se aprendió a usar find / -perm -4000 2&gt;/dev/null para encontrar binarios SUID 
+        y sudo -l para listar comandos ejecutables como root, 
+        dos de las técnicas más comunes en escalada de privilegios en CTF y entornos reales.
+
+<strong>ESCALADA DE PRIVILEGIOS: </strong><br>
+        Escalada de privilegios mediante Vim con permisos sudo. 
+        Se explotó que mario podía ejecutar /usr/bin/vim como root. 
+        Desde Vim se lanzó una shell interactiva con :!/bin/bash, 
+        obteniendo acceso root completo. 
+        Este es un vector clásico documentado en GTFOBins.
