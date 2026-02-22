@@ -1,4 +1,4 @@
-# Microchoft: Microchoft - The Hackers Labs
+# Máquina Microchoft - The Hackers Labs
 Dificultad: Easy  
 Sistema: Windows 7
 
@@ -11,3 +11,4 @@ Sistema: Windows 7
 ## 4. Escalada de privilegios
 
 ## 5. Aprendizajes
+
