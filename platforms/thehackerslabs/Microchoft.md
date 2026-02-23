@@ -26,6 +26,10 @@ Nos vamos a enfocar en el puerto 445 en la cual nos detecta uyna maquina windows
 
 <img width="1212" height="538" alt="image" src="https://github.com/user-attachments/assets/b6d53453-8df1-4370-b8e6-ae314de90449" /><br>
 
+
+
+## 3. Explotación
+
 <img width="1255" height="528" alt="image" src="https://github.com/user-attachments/assets/23891e76-f518-4970-9161-c395c57a12b8" /><br>
 
 <img width="1342" height="494" alt="image" src="https://github.com/user-attachments/assets/662336e9-cc04-4609-8b80-aeb8287bbf4a" /><br>
@@ -37,35 +41,27 @@ Nos vamos a enfocar en el puerto 445 en la cual nos detecta uyna maquina windows
 <img width="683" height="554" alt="image" src="https://github.com/user-attachments/assets/dcf54d0c-aaf2-4642-9579-6fbf9d187f21" /><br>
 
 
-
-
 Flag Lola User<br>
 <img width="472" height="211" alt="image" src="https://github.com/user-attachments/assets/09194120-f078-45ad-984a-a49d7df5273f" /><br>
 <img width="497" height="59" alt="image" src="https://github.com/user-attachments/assets/d74170e9-42c6-4859-96a9-663df8c26aa6" /> <br>
 
 
 Flag Admin User<br>
-<img width="509" height="309" alt="image" src="https://github.com/user-attachments/assets/e7baa85f-9096-4303-b38e-2693a79abf58" />
+<img width="564" height="330" alt="image" src="https://github.com/user-attachments/assets/dea62f01-1da0-42de-ba5b-55aaf8346631" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 3. Explotación
 
 ## 4. Escalada de privilegios
 
 ## 5. Aprendizajes
+
+Enumeración de SMB: Identificación de recursos compartidos en servicios SMB y posibles vulnerabilidades.<br>
+Enumeración de aplicación web: Exploración de contenido web visible y oculto para detectar puntos de entrada.<br>
+Enumeración de servicios: Identificación de los servicios que corren en los puertos abiertos, incluyendo versiones.<br>
+Escaneo de puertos TCP: Detección de puertos abiertos en la máquina objetivo mediante escaneo TCP.<br>
+Explotación con Metasploit: Uso de la herramienta Metasploit para lanzar exploits conocidos contra servicios vulnerables.<br>
+Explotación de EternalBlue: Explotación de la vulnerabilidad MS17-010 para ejecución remota de código en Windows.<br>
+Sesión Meterpreter: Acceso interactivo al sistema comprometido a través de una shell avanzada de Metasploit.<br>
+
 
 
 
