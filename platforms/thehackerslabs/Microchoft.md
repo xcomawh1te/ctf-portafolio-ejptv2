@@ -2,6 +2,10 @@
 Dificultad: Easy  
 Sistema: Windows 7
 
+
+<img width="1356" height="517" alt="image" src="https://github.com/user-attachments/assets/53631ad1-26bd-463f-94a8-75e87693e494" />
+
+
 ## 1. Reconocimiento
 Partimos Verificando el rango de ip para poder luego encontrar la ip de la maquina victima <br>
 <img width="1174" height="322" alt="image" src="https://github.com/user-attachments/assets/c69c269a-f40e-4ceb-ad84-7cdf7daaa24f" /> <br>
@@ -74,6 +78,7 @@ Explotación de la vulnerabilidad MS17-010 para ejecución remota de código en 
 
 <strong>SESIÓN METERPRETER:</strong><br>
 Acceso interactivo al sistema comprometido a través de una shell avanzada de Metasploit.
+
 
 
 
