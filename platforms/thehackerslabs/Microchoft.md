@@ -54,13 +54,27 @@ Flag Admin User<br>
 
 ## 5. Aprendizajes
 
-Enumeración de SMB: Identificación de recursos compartidos en servicios SMB y posibles vulnerabilidades.<br>
-Enumeración de aplicación web: Exploración de contenido web visible y oculto para detectar puntos de entrada.<br>
-Enumeración de servicios: Identificación de los servicios que corren en los puertos abiertos, incluyendo versiones.<br>
-Escaneo de puertos TCP: Detección de puertos abiertos en la máquina objetivo mediante escaneo TCP.<br>
-Explotación con Metasploit: Uso de la herramienta Metasploit para lanzar exploits conocidos contra servicios vulnerables.<br>
-Explotación de EternalBlue: Explotación de la vulnerabilidad MS17-010 para ejecución remota de código en Windows.<br>
-Sesión Meterpreter: Acceso interactivo al sistema comprometido a través de una shell avanzada de Metasploit.<br>
+<strong>ENUMERACIÓN DE SMB:</strong><br>
+Identificación de recursos compartidos en servicios SMB y posibles vulnerabilidades.<br>
+
+<strong>ENUMERACIÓN DE APLICACIÓN WEB:</strong><br>
+Exploración de contenido web visible y oculto para detectar puntos de entrada.<br>
+
+<strong>ENUMERACIÓN DE SERVICIOS:</strong><br>
+Identificación de los servicios que corren en los puertos abiertos, incluyendo versiones.<br>
+
+<strong>ESCANEO DE PUERTOS TCP:</strong><br>
+Detección de puertos abiertos en la máquina objetivo mediante escaneo TCP.<br>
+
+<strong>EXPLOTACIÓN CON METASPLOIT:</strong><br>
+Uso de la herramienta Metasploit para lanzar exploits conocidos contra servicios vulnerables.<br>
+
+<strong>EXPLOTACIÓN DE ETERNALBLUE:</strong><br>
+Explotación de la vulnerabilidad MS17-010 para ejecución remota de código en Windows.<br>
+
+<strong>SESIÓN METERPRETER:</strong><br>
+Acceso interactivo al sistema comprometido a través de una shell avanzada de Metasploit.
+
 
 
 
