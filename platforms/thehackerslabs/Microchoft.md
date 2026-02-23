@@ -14,11 +14,50 @@ Encontramos la ip 192.168.199.42 <br>
 
 ## 2. Enumeración
 
-<img width="1202" height="557" alt="image" src="https://github.com/user-attachments/assets/dfd36807-dbeb-474a-a4e9-606d3e4cb321" />
+<img width="1202" height="557" alt="image" src="https://github.com/user-attachments/assets/dfd36807-dbeb-474a-a4e9-606d3e4cb321" /><br>
 
-Nos vamos a enfocar en el puerto 445 en la cual nos detecta uyna maquina windows 7
+Nos vamos a enfocar en el puerto 445 en la cual nos detecta uyna maquina windows 7 <br>
 
-<img width="1272" height="556" alt="image" src="https://github.com/user-attachments/assets/c8bb2b62-390e-4633-92b3-9f6387f640fa" />
+<img width="1272" height="556" alt="image" src="https://github.com/user-attachments/assets/c8bb2b62-390e-4633-92b3-9f6387f640fa" /><br>
+
+<img width="1253" height="251" alt="image" src="https://github.com/user-attachments/assets/35ff8149-83b2-4615-9c39-dc962b7a1372" /><br>
+
+<img width="1279" height="116" alt="image" src="https://github.com/user-attachments/assets/31b9ec0e-3fb6-48c3-862e-f1e267e6c5f7" /><br>
+
+<img width="1212" height="538" alt="image" src="https://github.com/user-attachments/assets/b6d53453-8df1-4370-b8e6-ae314de90449" /><br>
+
+<img width="1255" height="528" alt="image" src="https://github.com/user-attachments/assets/23891e76-f518-4970-9161-c395c57a12b8" /><br>
+
+<img width="1342" height="494" alt="image" src="https://github.com/user-attachments/assets/662336e9-cc04-4609-8b80-aeb8287bbf4a" /><br>
+
+<img width="1340" height="559" alt="image" src="https://github.com/user-attachments/assets/19081f39-93e9-4b4d-975b-6e55609a1227" /><br>
+
+<img width="568" height="517" alt="image" src="https://github.com/user-attachments/assets/ef6367bb-08d7-4b06-98a5-f839381385a1" /><br>
+
+<img width="683" height="554" alt="image" src="https://github.com/user-attachments/assets/dcf54d0c-aaf2-4642-9579-6fbf9d187f21" /><br>
+
+
+
+
+Flag Lola User<br>
+<img width="472" height="211" alt="image" src="https://github.com/user-attachments/assets/09194120-f078-45ad-984a-a49d7df5273f" /><br>
+<img width="497" height="59" alt="image" src="https://github.com/user-attachments/assets/d74170e9-42c6-4859-96a9-663df8c26aa6" /> <br>
+
+
+Flag Admin User<br>
+<img width="509" height="309" alt="image" src="https://github.com/user-attachments/assets/e7baa85f-9096-4303-b38e-2693a79abf58" />
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -27,5 +66,6 @@ Nos vamos a enfocar en el puerto 445 en la cual nos detecta uyna maquina windows
 ## 4. Escalada de privilegios
 
 ## 5. Aprendizajes
+
 
 
