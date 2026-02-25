@@ -6,7 +6,13 @@ Sistema: Linux
 
 
 ## 1. Reconocimiento
+<img width="558" height="127" alt="image" src="https://github.com/user-attachments/assets/9f2799eb-b03f-4cef-acbf-de6a53cef75b" /><br>
 
+
+## 2. Enumeración
+## 3. Explotación
+## 4. Escalada de Privilegios
+## 5. Aprendizajes
 Enumeramos puertos con nmap y encontramos el puerto 9090, investigando obtenemos algo sobre el servicio Openfire
 <img width="642" height="123" alt="image" src="https://github.com/user-attachments/assets/d66fcab5-485a-4fb8-a0aa-91df8f9c4a91" /><br>
 <img width="603" height="206" alt="image" src="https://github.com/user-attachments/assets/fbb28856-1031-434d-9ff1-b2d12b89fe1e" /><br>
@@ -59,6 +65,7 @@ ya con el user en cuestión aplicamos un ataque de fuerza bruta en este caso hyd
 una vez obtenidas las credenciales nos conectamos por ssh y accedemos !<br>
 
 <img width="1040" height="340" alt="image" src="https://github.com/user-attachments/assets/f4d541cc-d331-4de8-8c97-084261a78003" /><br>
+
 
 
 
