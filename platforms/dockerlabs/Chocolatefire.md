@@ -61,11 +61,29 @@ ya con el user en cuestión aplicamos un ataque de fuerza bruta en este caso hyd
 <img width="1342" height="274" alt="image" src="https://github.com/user-attachments/assets/b744c528-c88a-48c8-9a3c-a44bf5ad78fb" /><br>
 
 ## 4. Escalada de Privilegios
-una vez obtenidas las credenciales nos conectamos por ssh y accedemos como usuario root !<br>
+una vez obtenidas las credenciales nos conectamos por ssh y accedemos como el usuario <br>
 
 <img width="1040" height="340" alt="image" src="https://github.com/user-attachments/assets/f4d541cc-d331-4de8-8c97-084261a78003" /><br>
 
+
+<img width="942" height="421" alt="image" src="https://github.com/user-attachments/assets/d53035ef-546a-444c-b3fa-6a5cac97c029" /><br>
+
+usamos !/bin/bash y hacemos un pivoting de usuario <br>
+<img width="1191" height="703" alt="image" src="https://github.com/user-attachments/assets/b36487f4-d592-4ca6-a020-b4d73ad9c70a" /><br>
+
+<img width="894" height="327" alt="image" src="https://github.com/user-attachments/assets/30db2b62-90f6-4bc1-a1f8-a063b8e89196" /><br>
+
+Buscar Bash eq Privilege Escalation
+<img width="979" height="503" alt="image" src="https://github.com/user-attachments/assets/cdd7bd42-c1e3-4eed-915f-178a03302225" /><br>
+
+
+<img width="731" height="199" alt="image" src="https://github.com/user-attachments/assets/b923342d-1a0f-4fcf-afc1-7e60714ecea0" /><br>
+
+
+
+
 ## 5. Aprendizajes
+
 
 
 
