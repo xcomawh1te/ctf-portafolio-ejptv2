@@ -1,4 +1,11 @@
+# Máquina: Chocolatefire - Dockerlabs
+Dificultad: Medium  
+Sistema: Linux 
 
+<img width="1356" height="517" alt="image" src="https://github.com/user-attachments/assets/53631ad1-26bd-463f-94a8-75e87693e494" /> 
+
+
+## 1. Reconocimiento
 
 Enumeramos puertos con nmap y encontramos el puerto 9090, investigando obtenemos algo sobre el servicio Openfire
 <img width="642" height="123" alt="image" src="https://github.com/user-attachments/assets/d66fcab5-485a-4fb8-a0aa-91df8f9c4a91" /><br>
@@ -52,6 +59,7 @@ ya con el user en cuestión aplicamos un ataque de fuerza bruta en este caso hyd
 una vez obtenidas las credenciales nos conectamos por ssh y accedemos !<br>
 
 <img width="1040" height="340" alt="image" src="https://github.com/user-attachments/assets/f4d541cc-d331-4de8-8c97-084261a78003" /><br>
+
 
 
 
