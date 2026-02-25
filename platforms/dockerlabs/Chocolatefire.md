@@ -41,7 +41,7 @@ Clonando repositorio<br>
 Instalación de pyton3-venv <br>
 <img width="869" height="496" alt="image" src="https://github.com/user-attachments/assets/cd8cb416-4c26-471b-8180-67745de0a419" /><br>
 
-Creamos nuestro archivo de venv para luego hacer el pip3 install -r requirements.txt <br>
+Creamos nuestro archivo de venv para luego Instalar todas las librerías que están listadas dentro del archivo requirements.txt usando Python 3 <br>
 <img width="1341" height="437" alt="image" src="https://github.com/user-attachments/assets/7e1c1e99-3f25-41df-8c89-541516650de4" /><br>
 
 ## 3. Explotación
@@ -66,6 +66,7 @@ una vez obtenidas las credenciales nos conectamos por ssh y accedemos como usuar
 <img width="1040" height="340" alt="image" src="https://github.com/user-attachments/assets/f4d541cc-d331-4de8-8c97-084261a78003" /><br>
 
 ## 5. Aprendizajes
+
 
 
 
