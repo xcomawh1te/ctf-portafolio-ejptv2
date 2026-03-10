@@ -34,7 +34,9 @@ hay accesos de XML-RPC, listados para subir archivos con confidence 100%n y nos 
 <img width="1346" height="564" alt="image" src="https://github.com/user-attachments/assets/9a33563a-2d23-4c74-aaf4-a562284d9063" />
 
 Realizamos un ataque de fuerza bruta para encontrar las credenciales con wpscan usando el diccionario rockyou.txt 
-<img width="813" height="542" alt="image" src="https://github.com/user-attachments/assets/2bb80c55-a902-4918-a36b-850e24ddc333" />/br
+<img width="813" height="542" alt="image" src="https://github.com/user-attachments/assets/2bb80c55-a902-4918-a36b-850e24ddc333" />
+
+
 Como resultado nos entrega la contraseña
 <img width="852" height="429" alt="image" src="https://github.com/user-attachments/assets/4960e076-d19f-49c4-9914-cd6e8c6d1eac" />
 
