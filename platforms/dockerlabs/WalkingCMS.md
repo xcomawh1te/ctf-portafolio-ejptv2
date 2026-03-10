@@ -42,11 +42,11 @@ Como resultado nos entrega la contraseña
 
 
 ## 3. Explotación
+
 ya podemos ingresar al sistema desde el panel de login con las credenciales rescatadas
 <img width="481" height="508" alt="image" src="https://github.com/user-attachments/assets/96c19064-6d35-4e2a-9bd2-303ec550cdd2" />
 
 <img width="1132" height="579" alt="image" src="https://github.com/user-attachments/assets/f1ce84f8-2a50-4275-86e2-2d617431757d" />
-
 
 
 Revisamos el perfil mario que tiene rol Administrador , con lo cual podemos instalar el plugin FILE MANAGEMET y creamos un archivo shell.php el cual contendrá la reverse shell de pentestmonkey
@@ -54,7 +54,8 @@ Revisamos el perfil mario que tiene rol Administrador , con lo cual podemos inst
 
 Luego ingresamos a la url para cargar esta reverse shell
 <img width="895" height="109" alt="image" src="https://github.com/user-attachments/assets/a60a92b4-428f-4be6-9cd0-4569e38dfe45" />
-al mismo tiempo nos ponemos en escucha por netcat/br
+
+al mismo tiempo nos ponemos en escucha por netcat, configuramos el tipo de terminal
 <img width="985" height="347" alt="image" src="https://github.com/user-attachments/assets/330e76e1-6ee6-4144-be00-f7f9c74abdd3" />
 
 ## 4. Escalada de privilegios
