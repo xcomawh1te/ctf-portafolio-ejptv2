@@ -19,7 +19,7 @@ Escaneo de nmap puertos y servicios
 verificamos url en navegador
 <img width="894" height="598" alt="image" src="https://github.com/user-attachments/assets/8850af5a-49a3-440a-a15f-ccdbeee6b1a6" />
 
-utulizamos fuzzing con gobuster y encontramos un wordpress
+utilizamos fuzzing con gobuster y encontramos un wordpress
 <img width="1077" height="381" alt="image" src="https://github.com/user-attachments/assets/657220e8-e40d-4fcb-be3c-d6998372f782" />
 
 <img width="1082" height="568" alt="image" src="https://github.com/user-attachments/assets/3a8f58ff-cc07-4f42-b636-1f9238b47135" /> 
