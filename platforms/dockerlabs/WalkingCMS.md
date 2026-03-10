@@ -1,10 +1,10 @@
-# Machine: Name Machine - Platfrom
+<img width="1346" height="564" alt="image" src="https://github.com/user-attachments/assets/cfd14af2-ef09-4c04-a382-3b0fd3524465" /># Machine: Name Machine - Platfrom
 Dificultad: Easy  
 Sistema: Windows  
 <img width="1356" height="517" alt="image" src="https://github.com/user-attachments/assets/c92b6528-de48-4118-92ff-be682b5739d1" />
 
 ## 1. Reconocimiento
-Habilitamos la maquina y nos entrega su io -> 172.17.0.2
+Habilitamos la maquina y nos entrega su io -> 172.17.0.2/br
 <img width="587" height="138" alt="image" src="https://github.com/user-attachments/assets/9ba82191-6215-41fc-9644-2c5785a3f189" />
 
 ## 2. Enumeración
@@ -27,12 +27,13 @@ utulizamos fuzzing con gobuster   encontramos un wordpressu /br
 Revisamos los links del sitio y nos encotnramos con un post el cual tiene fecha de publicacion y un usuario mario /br
 <img width="1003" height="585" alt="image" src="https://github.com/user-attachments/assets/10e2f774-b48f-4fa2-a61e-b5909ca38a6e" />/br
 
-con el fin de enumerar usuarios y servicios  hacemos un wpscan/br
+con el fin de enumerar usuarios y servicios  hacemos un wpscan , acá podemos observar tanto versiones y plugins isntalados /br
+hay accesos de XML-RPC, listados para subir archivos con confidence 100% 
+y nos encuentra al usuario mario /br
 <img width="698" height="534" alt="image" src="https://github.com/user-attachments/assets/568e3edb-b2c8-4ebe-9453-16afae82e502" />/br
 <img width="1009" height="537" alt="image" src="https://github.com/user-attachments/assets/3a86342a-0169-4da8-92b6-c28e75f04cdb" />/br
+<img width="1346" height="564" alt="image" src="https://github.com/user-attachments/assets/9a33563a-2d23-4c74-aaf4-a562284d9063" />/br
 
-
-<img width="1009" height="537" alt="image" src="https://github.com/user-attachments/assets/923c248d-8177-4df2-b8db-09ee7804a348" />
 
 
 
