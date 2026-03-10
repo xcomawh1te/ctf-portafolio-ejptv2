@@ -34,13 +34,22 @@ y nos encuentra al usuario mario /br
 <img width="1009" height="537" alt="image" src="https://github.com/user-attachments/assets/3a86342a-0169-4da8-92b6-c28e75f04cdb" />
 <img width="1346" height="564" alt="image" src="https://github.com/user-attachments/assets/9a33563a-2d23-4c74-aaf4-a562284d9063" />
 
-
-
-
-
+Realizamos un ataque de fuerza bruta para encontrar las credenciales con wpscan usando el diccionario rockyou.txt /br
+<img width="813" height="542" alt="image" src="https://github.com/user-attachments/assets/2bb80c55-a902-4918-a36b-850e24ddc333" />
+Como resultado nos entrega la contraseña
+<img width="852" height="429" alt="image" src="https://github.com/user-attachments/assets/4960e076-d19f-49c4-9914-cd6e8c6d1eac" />
 
 
 ## 3. Explotación
+ya podemos ingresar al sistema desde el panel de login con las credenciales rescatadas /br
+<img width="1132" height="579" alt="image" src="https://github.com/user-attachments/assets/f1ce84f8-2a50-4275-86e2-2d617431757d" />
+Nos dirigimos al editor de themes de wordpress y en el archivo 404 insertaremos nuestra reverse shell
+<img width="1288" height="565" alt="image" src="https://github.com/user-attachments/assets/c10fba7d-1890-4852-b03b-529350ec8640" />
+usaremos la reverse shell de pentestmonkey
+<img width="1138" height="572" alt="image" src="https://github.com/user-attachments/assets/cf60b031-74e8-43fd-b9e0-746dc246b341" />
+
+
+
 
 ## 4. Escalada de privilegios
 
