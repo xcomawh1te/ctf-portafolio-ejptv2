@@ -51,11 +51,12 @@ shell.php
 
 
 <img width="895" height="109" alt="image" src="https://github.com/user-attachments/assets/a60a92b4-428f-4be6-9cd0-4569e38dfe45" />
-
+al mismo tiempo nos ponemos en escucha por netcat/br
+<img width="985" height="347" alt="image" src="https://github.com/user-attachments/assets/330e76e1-6ee6-4144-be00-f7f9c74abdd3" />
 
 ## 4. Escalada de privilegios
 
-<img width="985" height="347" alt="image" src="https://github.com/user-attachments/assets/330e76e1-6ee6-4144-be00-f7f9c74abdd3" />
+
 
 
 <img width="552" height="338" alt="image" src="https://github.com/user-attachments/assets/2dfa4e47-1177-4326-b6c3-75d955257a22" />
