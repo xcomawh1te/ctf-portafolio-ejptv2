@@ -1,4 +1,4 @@
-# Machine: WalkingCMS - Dockerlabs
+# Máquina: WalkingCMS - Dockerlabs
 Dificultad: Easy  
 Sistema: Linux , CMS Wordpress  
 <img width="1356" height="517" alt="image" src="https://github.com/user-attachments/assets/c92b6528-de48-4118-92ff-be682b5739d1" />
