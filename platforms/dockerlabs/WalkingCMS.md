@@ -1,6 +1,6 @@
-<img width="1346" height="564" alt="image" src="https://github.com/user-attachments/assets/cfd14af2-ef09-4c04-a382-3b0fd3524465" /># Machine: Name Machine - Platfrom
+# Machine: WalkingCMS - Dockerlabs
 Dificultad: Easy  
-Sistema: Windows  
+Sistema: Linux , CMS Wordpress  
 <img width="1356" height="517" alt="image" src="https://github.com/user-attachments/assets/c92b6528-de48-4118-92ff-be682b5739d1" />
 
 ## 1. Reconocimiento
@@ -33,8 +33,6 @@ y nos encuentra al usuario mario /br
 <img width="698" height="534" alt="image" src="https://github.com/user-attachments/assets/568e3edb-b2c8-4ebe-9453-16afae82e502" />/br
 <img width="1009" height="537" alt="image" src="https://github.com/user-attachments/assets/3a86342a-0169-4da8-92b6-c28e75f04cdb" />/br
 <img width="1346" height="564" alt="image" src="https://github.com/user-attachments/assets/9a33563a-2d23-4c74-aaf4-a562284d9063" />/br
-
-
 
 
 
