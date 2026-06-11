@@ -2,7 +2,7 @@
 Dificultad: Easy  
 Sistema: Linux 
 
-<img width="1356" height="517" alt="image" src="https://github.com/user-attachments/assets/53631ad1-26bd-463f-94a8-75e87693e494" /> 
+
 
 
 ## 1. Reconocimiento
